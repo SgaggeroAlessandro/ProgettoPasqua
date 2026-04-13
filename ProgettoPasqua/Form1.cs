@@ -50,24 +50,7 @@ namespace ProgettoPasqua
             player.PlayLooping();
 
            
-            this.BackColor = Color.FromArgb(20, 18, 45);
-
-            
-            btnApri1.BackColor = Color.FromArgb(255, 0, 102);
-            btnApri1.ForeColor = Color.White;
-            btnApri2.BackColor = Color.FromArgb(255, 0, 102);
-            btnApri2.ForeColor = Color.White;
-            btnApri3.BackColor = Color.FromArgb(255, 0, 102);
-            btnApri3.ForeColor = Color.White;
-            btnChiudi.BackColor = Color.FromArgb(255, 0, 102);
-            btnChiudi.ForeColor = Color.White;
-
-
-            label2.ForeColor = Color.FromArgb(200, 200, 220);
-            label2.Font = new Font("Segoe UI", 11f);
-
-            label1.ForeColor = Color.FromArgb(255, 234, 0);
-            label1.Font = new Font("Impact", 24f, FontStyle.Bold);
+           
         }
     }
 }

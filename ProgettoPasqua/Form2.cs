@@ -124,26 +124,6 @@ namespace ProgettoPasqua
             
                 CaricaCSV();
 
-            this.BackColor = Color.FromArgb(20, 18, 45);
-
-            label2.ForeColor = Color.FromArgb(255, 234, 0);
-            label2.Font = new Font("Impact", 24f, FontStyle.Bold);
-
-            label1.ForeColor = Color.FromArgb(200, 200, 220);
-            label1.Font = new Font("Segoe UI", 11f);
-            label3.ForeColor = Color.FromArgb(200, 200, 220);
-            label3.Font = new Font("Segoe UI", 11f);
-            label4.ForeColor = Color.FromArgb(200, 200, 220);
-            label4.Font = new Font("Segoe UI", 11f);
-
-            btnCerca.BackColor = Color.FromArgb(255, 0, 102);
-            btnCerca.ForeColor = Color.White;
-
-            btnElimina.BackColor = Color.FromArgb(255, 0, 102);
-            btnElimina.ForeColor = Color.White;
-
-            btnSalva.BackColor = Color.FromArgb(255, 0, 102);
-            btnSalva.ForeColor = Color.White;
         }
 
         private void btnCerca_Click(object sender, EventArgs e)

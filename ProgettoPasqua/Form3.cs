@@ -45,22 +45,7 @@ namespace ProgettoPasqua
         {
             cmbGiostre.DataSource = Enum.GetValues(typeof(Giostre));
 
-            this.BackColor = Color.FromArgb(20, 18, 45);
-
-            label1.ForeColor = Color.FromArgb(255, 234, 0);
-            label1.Font = new Font("Impact", 24f, FontStyle.Bold);
-
-            label2.ForeColor = Color.FromArgb(200, 200, 220);
-            label2.Font = new Font("Segoe UI", 11f);
             
-            label4.ForeColor = Color.FromArgb(200, 200, 220);
-            label4.Font = new Font("Segoe UI", 11f);
-
-            btnAggiungi.BackColor = Color.FromArgb(255, 0, 102);
-            btnAggiungi.ForeColor = Color.White;
-
-            btnStart.BackColor = Color.FromArgb(255, 0, 102);
-            btnStart.ForeColor = Color.White;
 
             
         }

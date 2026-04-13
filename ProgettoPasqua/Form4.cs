@@ -44,28 +44,7 @@ namespace ProgettoPasqua
         {
             cmbAttrazione.DataSource = Enum.GetValues(typeof(Attrazioni));
             CaricaCSV();
-            lblPersone.Text = "Persone: " + persone.ToString();
-
-
-            this.BackColor = Color.FromArgb(20, 18, 45);
-
-            label1.ForeColor = Color.FromArgb(255, 234, 0);
-            label1.Font = new Font("Impact", 24f, FontStyle.Bold);
-
-            label2.ForeColor = Color.FromArgb(200, 200, 220);
-            label2.Font = new Font("Segoe UI", 11f);
-
-            label3.ForeColor = Color.FromArgb(200, 200, 220);
-            label3.Font = new Font("Segoe UI", 11f);
-
-            lblPersone.ForeColor = Color.FromArgb(200, 200, 220);
-            lblPersone.Font = new Font("Segoe UI", 11f);
-
-            btnAggiungi.BackColor = Color.FromArgb(255, 0, 102);
-            btnAggiungi.ForeColor = Color.White;
-
-            btnUscire.BackColor = Color.FromArgb(255, 0, 102);
-            btnUscire.ForeColor = Color.White;
+            
         }
         private void CaricaCSV()
         {
@@ -250,8 +229,9 @@ namespace ProgettoPasqua
                         return;
                     }
                 }
-                MessageBox.Show("Attrazione non trovata.");
+                
             }
+            MessageBox.Show("Attrazione non trovata.");
         }
     }
 }
